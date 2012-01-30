@@ -1,3 +1,5 @@
+require 'nanoc3/tasks'
+
 namespace :tests do
   require 'rake/testtask'
   desc "Run all the tests"

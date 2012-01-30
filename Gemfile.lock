@@ -1,10 +1,18 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    cri (2.0.2)
+    haml (3.1.4)
     minitest (2.9.1)
+    nanoc (3.2.3)
+      nanoc3 (>= 3.2.3)
+    nanoc3 (3.2.3)
+      cri (~> 2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
   minitest
+  nanoc
